@@ -1,0 +1,8 @@
+language: go
+go:
+  - 1.9
+  - master 
+go_import_path: github.com/hako910/GolangTest/src
+script: go test
+notifications:
+  email: false
